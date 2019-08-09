@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  GCD
+//
+//  Created by zainguo on 2019/8/9.
+//  Copyright © 2019 zainguo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+
+#endif /* PrefixHeader_pch */
