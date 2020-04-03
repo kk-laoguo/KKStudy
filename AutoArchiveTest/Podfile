@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AutoArchiveTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'AFNetworking'
+  pod 'CaiXiniOS_SDK', :git => 'https://e.coding.net/caixin/CaiXiniOS_SDK.git', :tag => '1.0.1'
+
+  # Pods for AutoArchiveTest
+
+  target 'AutoArchiveTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AutoArchiveTestUITests' do
+    # Pods for testing
+  end
+
+end

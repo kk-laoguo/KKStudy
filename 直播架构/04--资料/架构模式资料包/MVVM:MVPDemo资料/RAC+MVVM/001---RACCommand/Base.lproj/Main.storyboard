@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pQw-NX-b6e">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="rIP-wM-7aw">
+            <objects>
+                <viewController id="pQw-NX-b6e" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a7Q-DG-Fjc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4la-PF-wzX">
+                                <rect key="frame" x="157" y="50" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="DJk-Fm-8ue"/>
+                                    <constraint firstAttribute="height" constant="60" id="t14-re-JXe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="30"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入账号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aaf-4E-2Ad">
+                                <rect key="frame" x="112.5" y="150" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="AZw-GG-pto"/>
+                                    <constraint firstAttribute="height" constant="30" id="kxD-bs-OqS"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Lf-4S-r3D">
+                                <rect key="frame" x="112" y="210" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Ftx-EE-u8g"/>
+                                    <constraint firstAttribute="height" constant="30" id="PfL-gM-TFo"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LyK-MR-9bt">
+                                <rect key="frame" x="112" y="290" width="150" height="30"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="登录">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="状态" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uo0-cV-zk0">
+                                <rect key="frame" x="169.5" y="360" width="35" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.44557780130000002" blue="0.39948589220000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uo0-cV-zk0" firstAttribute="centerX" secondItem="LyK-MR-9bt" secondAttribute="centerX" id="56e-YN-VFm"/>
+                            <constraint firstItem="4la-PF-wzX" firstAttribute="top" secondItem="R0C-5w-enf" secondAttribute="top" constant="30" id="EQY-E5-HOX"/>
+                            <constraint firstItem="LyK-MR-9bt" firstAttribute="width" secondItem="2Lf-4S-r3D" secondAttribute="width" id="Ih0-KT-1pU"/>
+                            <constraint firstItem="2Lf-4S-r3D" firstAttribute="top" secondItem="aaf-4E-2Ad" secondAttribute="bottom" constant="30" id="Liz-A9-HmL"/>
+                            <constraint firstItem="aaf-4E-2Ad" firstAttribute="centerX" secondItem="4la-PF-wzX" secondAttribute="centerX" id="SDo-zg-IF2"/>
+                            <constraint firstItem="LyK-MR-9bt" firstAttribute="centerX" secondItem="2Lf-4S-r3D" secondAttribute="centerX" id="Sop-gc-5SO"/>
+                            <constraint firstItem="LyK-MR-9bt" firstAttribute="height" secondItem="2Lf-4S-r3D" secondAttribute="height" id="Tb5-TN-VqM"/>
+                            <constraint firstItem="aaf-4E-2Ad" firstAttribute="top" secondItem="4la-PF-wzX" secondAttribute="bottom" constant="40" id="WGa-CP-Tsa"/>
+                            <constraint firstItem="LyK-MR-9bt" firstAttribute="top" secondItem="2Lf-4S-r3D" secondAttribute="bottom" constant="50" id="eOE-ML-tKW"/>
+                            <constraint firstItem="uo0-cV-zk0" firstAttribute="top" secondItem="LyK-MR-9bt" secondAttribute="bottom" constant="40" id="sLr-Jd-pd4"/>
+                            <constraint firstItem="4la-PF-wzX" firstAttribute="centerX" secondItem="R0C-5w-enf" secondAttribute="centerX" id="wsl-pW-rU3"/>
+                            <constraint firstItem="2Lf-4S-r3D" firstAttribute="centerX" secondItem="aaf-4E-2Ad" secondAttribute="centerX" id="xhd-jJ-LKW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R0C-5w-enf"/>
+                    </view>
+                    <connections>
+                        <outlet property="accountTF" destination="aaf-4E-2Ad" id="vPE-xd-2Cc"/>
+                        <outlet property="iconImageView" destination="4la-PF-wzX" id="aMM-z0-iKj"/>
+                        <outlet property="loginButton" destination="LyK-MR-9bt" id="MjO-I6-177"/>
+                        <outlet property="passwordTF" destination="2Lf-4S-r3D" id="JOV-1u-ytR"/>
+                        <outlet property="statuslabel" destination="uo0-cV-zk0" id="Ajv-50-dcz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gf3-OC-ypB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-50" y="25"/>
+        </scene>
+    </scenes>
+</document>

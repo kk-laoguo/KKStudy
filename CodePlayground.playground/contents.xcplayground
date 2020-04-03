@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos'>
+    <pages>
+        <page name='递归'/>
+        <page name='二分查找法'/>
+        <page name='三种简单排序算法'/>
+        <page name='快速排序'/>
+        <page name='链表'/>
+        <page name='栈和队列'/>
+    </pages>
+</playground>

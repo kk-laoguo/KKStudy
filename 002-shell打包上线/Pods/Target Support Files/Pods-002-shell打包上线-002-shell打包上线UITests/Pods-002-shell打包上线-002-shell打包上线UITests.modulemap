@@ -1,0 +1,6 @@
+framework module Pods_002_shell_____002_shell____UITests {
+  umbrella header "Pods-002-shell打包上线-002-shell打包上线UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

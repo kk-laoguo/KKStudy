@@ -1,0 +1,361 @@
+2019-12-25 03:24:34 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc5e802d580; archive(resolved)='<IDEArchive: 0x7fc5e7ee70a0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc5e802d580; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc5e802b480; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc5e802b190; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc5e80279d0; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc5e82062a0; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc5e8204a10; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc5e8202a40; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc5e8201b40; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc5e7fbc420; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='<IDEProvisioningBasicTeam: 0x7fc5e7d8fcb0; teamID='2D39S8YPM7', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc5e8100150; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc5e7ce9320; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc5e7cde6f0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc5e7ee7c40; archive = '<IDEArchive: 0x7fc5e7ee70a0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc5e802d580>
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2019-12-25 03:24:34 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app'
+2019-12-25 03:24:34 +0000  >>> Copying /Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app 
+2019-12-25 03:24:34 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-12-25 03:24:34 +0000  18037 bytes for ./_CodeSignature/CodeResources
+2019-12-25 03:24:34 +0000  copying file ./AppIcon20x20@2x.png ... 
+2019-12-25 03:24:34 +0000  2089 bytes for ./AppIcon20x20@2x.png
+2019-12-25 03:24:34 +0000  copying file ./AutoArchiveTest ... 
+2019-12-25 03:24:34 +0000  267856 bytes for ./AutoArchiveTest
+2019-12-25 03:24:34 +0000  copying file ./AppIcon20x20@3x.png ... 
+2019-12-25 03:24:34 +0000  3343 bytes for ./AppIcon20x20@3x.png
+2019-12-25 03:24:34 +0000  copying file ./AppIcon60x60@2x.png ... 
+2019-12-25 03:24:34 +0000  13004 bytes for ./AppIcon60x60@2x.png
+2019-12-25 03:24:34 +0000  copying file ./AppIcon29x29@2x.png ... 
+2019-12-25 03:24:34 +0000  3227 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon40x40@3x.png ... 
+2019-12-25 03:24:34 +0000  13004 bytes for ./AppIcon40x40@3x.png
+2019-12-25 03:24:34 +0000  copying file ./AppIcon29x29~ipad.png ... 
+2019-12-25 03:24:34 +0000  1101 bytes for ./AppIcon29x29~ipad.png
+2019-12-25 03:24:34 +0000  copying file ./AppIcon40x40@2x.png ... 
+2019-12-25 03:24:34 +0000  4451 bytes for ./AppIcon40x40@2x.png
+2019-12-25 03:24:34 +0000  copying file ./AppIcon29x29@3x.png ... 
+2019-12-25 03:24:34 +0000  9351 bytes for ./AppIcon29x29@3x.png
+2019-12-25 03:24:34 +0000  copying file ./AppIcon60x60@3x.png ... 
+2019-12-25 03:24:34 +0000  13847 bytes for ./AppIcon60x60@3x.png
+2019-12-25 03:24:34 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib ... 
+2019-12-25 03:24:34 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib
+2019-12-25 03:24:34 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2019-12-25 03:24:34 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2019-12-25 03:24:34 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib ... 
+2019-12-25 03:24:34 +0000  3027 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib
+2019-12-25 03:24:34 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2019-12-25 03:24:34 +0000  3623 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-12-25 03:24:34 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-12-25 03:24:34 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-12-25 03:24:34 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2019-12-25 03:24:34 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2019-12-25 03:24:34 +0000  2051 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2019-12-25 03:24:34 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2019-12-25 03:24:34 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2019-12-25 03:24:34 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2019-12-25 03:24:34 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-12-25 03:24:34 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-12-25 03:24:34 +0000  copying file ./Assets.car ... 
+2019-12-25 03:24:34 +0000  164888 bytes for ./Assets.car
+2019-12-25 03:24:34 +0000  copying file ./AppIcon40x40@2x~ipad.png ... 
+2019-12-25 03:24:34 +0000  2857 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+5072 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2019-12-25 03:24:34 +0000  5848 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+2019-12-25 03:24:34 +0000  copying file ./AppIcon29x29@2x~ipad.png ... 
+2019-12-25 03:24:34 +0000  2391 bytes for ./AppIcon29x29@2x~ipad.png
+2019-12-25 03:24:34 +0000  copying file ./AppIcon40x40~ipad.png ... 
+2019-12-25 03:24:34 +0000  1304 bytes for ./AppIcon40x40~ipad.png
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/_CodeSignature/CodeResources ... 
+2019-12-25 03:24:34 +0000  4478 bytes for ./Frameworks/CaiXiniOS_SDK.framework/_CodeSignature/CodeResources
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK ... 
+2019-12-25 03:24:34 +0000  2331952 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser03@2x.png ... 
+2019-12-25 03:24:34 +0000  2520 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser03@2x.png
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser01@2x.png ... 
+2019-12-25 03:24:34 +0000  2649 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser01@2x.png
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser05@2x.png ... 
+2019-12-25 03:24:34 +0000  2640 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser05@2x.png
+copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser07@2x.png ... 
+2019-12-25 03:24:34 +0000  2594 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser07@2x.png
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser02@2x.png ... 
+2019-12-25 03:24:34 +0000  2573 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser02@2x.png
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser08@2x.png ... 
+2019-12-25 03:24:34 +0000  2578 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser08@2x.png
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser04@2x.png ... 
+2019-12-25 03:24:34 +0000  2553 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser04@2x.png
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser06@2x.png ... 
+2019-12-25 03:24:34 +0000  2616 bytes for ./Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser06@2x.png
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/CaiXiniOS_SDK.framework/Info.plist ... 
+2019-12-25 03:24:34 +0000  748 bytes for ./Frameworks/CaiXiniOS_SDK.framework/Info.plist
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2019-12-25 03:24:34 +0000  1798 bytes for ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2019-12-25 03:24:34 +0000  1004848 bytes for ./Frameworks/MBProgressHUD.framework/MBProgressHUD
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/MBProgressHUD.framework/Info.plist ... 
+2019-12-25 03:24:34 +0000  748 bytes for ./Frameworks/MBProgressHUD.framework/Info.plist
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2019-12-25 03:24:34 +0000  1798 bytes for ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/AFNetworking.framework/AFNetworking ... 
+2019-12-25 03:24:34 +0000  3454832 bytes for ./Frameworks/AFNetworking.framework/AFNetworking
+2019-12-25 03:24:34 +0000  copying file ./Frameworks/AFNetworking.framework/Info.plist ... 
+2019-12-25 03:24:34 +0000  746 bytes for ./Frameworks/AFNetworking.framework/Info.plist
+2019-12-25 03:24:34 +0000  copying file ./AppIcon20x20~ipad.png ... 
+2019-12-25 03:24:34 +0000  597 bytes for ./AppIcon20x20~ipad.png
+2019-12-25 03:24:34 +0000  copying file ./embedded.mobileprovision ... 
+2019-12-25 03:24:34 +0000  14816 bytes for ./embedded.mobileprovision
+copying file ./AppIcon20x20@2x~ipad.png ... 
+2019-12-25 03:24:34 +0000  1304 bytes for ./AppIcon20x20@2x~ipad.png
+2019-12-25 03:24:34 +0000  copying file ./Info.plist ... 
+2019-12-25 03:24:34 +0000  1368 bytes for ./Info.plist
+2019-12-25 03:24:34 +0000  copying file ./PkgInfo ... 
+2019-12-25 03:24:34 +0000  8 bytes for ./PkgInfo
+2019-12-25 03:24:34 +0000  copying file ./AppIcon76x76~ipad.png ... 
+2019-12-25 03:24:34 +0000  2575 bytes for ./AppIcon76x76~ipad.png
+2019-12-25 03:24:34 +0000 [MT] /usr/bin/ditto exited with 0
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2019-12-25 03:24:34 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fc5e81216f0; bundleID='org.cocoapods.AFNetworking', path='<DVTFilePath:0x7fc5e7fcdd30:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/AFNetworking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8114420; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e7ee7410; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.AFNetworking', executablePath='<DVTFilePath:0x7fc5e7d8a130:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/AFNetworking.framework/AFNetworking'>', hardenedRuntime='0'>'>
+2019-12-25 03:24:34 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fc5e8068e60; bundleID='org.cocoapods.CaiXiniOS-SDK', path='<DVTFilePath:0x7fc5e8065e00:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8069000; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e820ee20; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.CaiXiniOS-SDK', executablePath='<DVTFilePath:0x7fc5e7d86370:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK'>', hardenedRuntime='0'>'>
+2019-12-25 03:24:34 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fc5e8110d40; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x7fc5e7fb8840:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e7d8e640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e820ef20; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x7fc5e810e070:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'>
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2019-12-25 03:24:34 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2019-12-25 03:24:34 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework/AFNetworking' '-verify_arch' 'arm64e'
+2019-12-25 03:24:34 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-25 03:24:34 +0000 [MT] Skipping architecture thinning for item "AFNetworking" because arch "arm64e" wasn't found
+2019-12-25 03:24:34 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK' '-verify_arch' 'arm64e'
+2019-12-25 03:24:34 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-25 03:24:34 +0000 [MT] Skipping architecture thinning for item "CaiXiniOS_SDK" because arch "arm64e" wasn't found
+2019-12-25 03:24:34 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/MBProgressHUD' '-verify_arch' 'arm64e'
+2019-12-25 03:24:34 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-25 03:24:34 +0000 [MT] Skipping architecture thinning for item "MBProgressHUD" because arch "arm64e" wasn't found
+2019-12-25 03:24:34 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/AutoArchiveTest' '-verify_arch' 'arm64e'
+2019-12-25 03:24:34 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-25 03:24:34 +0000 [MT] Skipping architecture thinning for item "AutoArchiveTest" because arch "arm64e" wasn't found
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionODRStep
+2019-12-25 03:24:34 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2019-12-25 03:24:34 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc5e81216f0; bundleID='org.cocoapods.AFNetworking', path='<DVTFilePath:0x7fc5e7fcdd30:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/AFNetworking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8114420; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e7da1e00; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.AFNetworking', executablePath='<DVTFilePath:0x7fc5e7d8a130:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/AFNetworking.framework/AFNetworking'>', hardenedRuntime='0'>'>
+2019-12-25 03:24:34 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc5e8068e60; bundleID='org.cocoapods.CaiXiniOS-SDK', path='<DVTFilePath:0x7fc5e8065e00:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8069000; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e802d420; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.CaiXiniOS-SDK', executablePath='<DVTFilePath:0x7fc5e7d86370:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK'>', hardenedRuntime='0'>'>
+2019-12-25 03:24:34 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc5e8110d40; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x7fc5e7fb8840:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e7d8e640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e7d96410; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x7fc5e810e070:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'>
+2019-12-25 03:24:34 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app'
+2019-12-25 03:24:35 +0000 [MT] /usr/bin/xattr exited with 0
+2019-12-25 03:24:35 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2019-12-25 03:24:35 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fc5e81216f0; bundleID='org.cocoapods.AFNetworking', path='<DVTFilePath:0x7fc5e7fcdd30:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/AFNetworking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8114420; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e813c6a0; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.AFNetworking', executablePath='<DVTFilePath:0x7fc5e7d8a130:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/AFNetworking.framework/AFNetworking'>', hardenedRuntime='0'>'>: {
+}
+2019-12-25 03:24:35 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fc5e81216f0; bundleID='org.cocoapods.AFNetworking', path='<DVTFilePath:0x7fc5e7fcdd30:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/AFNetworking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8114420; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e8154830; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.AFNetworking', executablePath='<DVTFilePath:0x7fc5e7d8a130:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/AFNetworking.framework/AFNetworking'>', hardenedRuntime='0'>'> to: /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/entitlements~~~xsnpca
+2019-12-25 03:24:35 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD7135B3DFAEAF0BCE05B0F14FEA1F2F657DAB16' '--entitlements' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/entitlements~~~xsnpca' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework'
+2019-12-25 03:24:35 +0000  /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AFNetworking]
+2019-12-25 03:24:35 +0000 [MT] /usr/bin/codesign exited with 0
+2019-12-25 03:24:35 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fc5e8068e60; bundleID='org.cocoapods.CaiXiniOS-SDK', path='<DVTFilePath:0x7fc5e8065e00:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8069000; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e8218a40; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.CaiXiniOS-SDK', executablePath='<DVTFilePath:0x7fc5e7d86370:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK'>', hardenedRuntime='0'>'>: {
+}
+2019-12-25 03:24:35 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fc5e8068e60; bundleID='org.cocoapods.CaiXiniOS-SDK', path='<DVTFilePath:0x7fc5e8065e00:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8069000; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e8151480; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.CaiXiniOS-SDK', executablePath='<DVTFilePath:0x7fc5e7d86370:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK'>', hardenedRuntime='0'>'> to: /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/entitlements~~~3ToQMW
+2019-12-25 03:24:35 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD7135B3DFAEAF0BCE05B0F14FEA1F2F657DAB16' '--entitlements' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/entitlements~~~3ToQMW' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework'
+2019-12-25 03:24:35 +0000  /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.CaiXiniOS-SDK]
+2019-12-25 03:24:35 +0000 [MT] /usr/bin/codesign exited with 0
+2019-12-25 03:24:35 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fc5e8110d40; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x7fc5e7fb8840:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e7d8e640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e813bee0; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x7fc5e810e070:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'>: {
+}
+2019-12-25 03:24:35 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fc5e8110d40; bundleID='org.cocoapods.MBProgressHUD', path='<DVTFilePath:0x7fc5e7fb8840:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e7d8e640; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e82176a0; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='(null)', teamID='2D39S8YPM7', identifier='org.cocoapods.MBProgressHUD', executablePath='<DVTFilePath:0x7fc5e810e070:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/MBProgressHUD'>', hardenedRuntime='0'>'> to: /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/entitlements~~~cE0QQt
+2019-12-25 03:24:35 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD7135B3DFAEAF0BCE05B0F14FEA1F2F657DAB16' '--entitlements' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/entitlements~~~cE0QQt' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework'
+2019-12-25 03:24:35 +0000  /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MBProgressHUD]
+2019-12-25 03:24:35 +0000 [MT] /usr/bin/codesign exited with 0
+2019-12-25 03:24:35 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fc5e7fe4130; bundleID='com.caixin.dev', path='<DVTFilePath:0x7fc5e7ee76e0:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8121ec0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e814f520; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='{
+    "application-identifier" = "2D39S8YPM7.com.caixin.dev";
+    "com.apple.developer.team-identifier" = 2D39S8YPM7;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "2D39S8YPM7.com.caixin.dev"
+    );
+}', teamID='2D39S8YPM7', identifier='com.caixin.dev', executablePath='<DVTFilePath:0x7fc5e7fb7190:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/AutoArchiveTest'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "2D39S8YPM7.com.caixin.dev";
+    "com.apple.developer.team-identifier" = 2D39S8YPM7;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "2D39S8YPM7.com.caixin.dev"
+    );
+}
+2019-12-25 03:24:35 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fc5e7fe4130; bundleID='com.caixin.dev', path='<DVTFilePath:0x7fc5e7ee76e0:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc5e8121ec0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc5e8217f80; name='Apple Development: Shuai Liu (AGZC5GRG7F)', hash='75663C4ED6FE15846D538332EA899537B7BBD14D', serialNumber='3D4EF9D7AC815786', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-08-05 02:50:51 +0000''>', entitlements='{
+    "application-identifier" = "2D39S8YPM7.com.caixin.dev";
+    "com.apple.developer.team-identifier" = 2D39S8YPM7;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "2D39S8YPM7.com.caixin.dev"
+    );
+}', teamID='2D39S8YPM7', identifier='com.caixin.dev', executablePath='<DVTFilePath:0x7fc5e7fb7190:'/Users/zainguo/ZYStudy/AutoArchiveTest/build/AutoArchiveTest.xcarchive/Products/Applications/AutoArchiveTest.app/AutoArchiveTest'>', hardenedRuntime='0'>'> to: /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/entitlements~~~s5pSxm
+2019-12-25 03:24:35 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BD7135B3DFAEAF0BCE05B0F14FEA1F2F657DAB16' '--entitlements' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/entitlements~~~s5pSxm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app'
+2019-12-25 03:24:35 +0000  /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root/Payload/AutoArchiveTest.app: signed app bundle with Mach-O universal (armv7 arm64) [com.caixin.dev]
+2019-12-25 03:24:35 +0000 [MT] /usr/bin/codesign exited with 0
+2019-12-25 03:24:35 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2019-12-25 03:24:35 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-25 03:24:35 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-25 03:24:35 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-25 03:24:35 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-25 03:24:35 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2019-12-25 03:24:35 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root' '/var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Packages/AutoArchiveTest.ipa'
+2019-12-25 03:24:35 +0000  >>> Copying /var/folders/2h/g1hrldm52vn1pdc0k8l14kw40000gn/T/XcodeDistPipeline.~~~X7UwZF/Root 
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/_CodeSignature/CodeResources ... 
+2019-12-25 03:24:35 +0000  18037 bytes for ./Payload/AutoArchiveTest.app/_CodeSignature/CodeResources
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/AppIcon20x20@2x.png ... 
+2019-12-25 03:24:35 +0000  2089 bytes for ./Payload/AutoArchiveTest.app/AppIcon20x20@2x.png
+copying file ./Payload/AutoArchiveTest.app/AutoArchiveTest ... 
+2019-12-25 03:24:35 +0000  168928 bytes for ./Payload/AutoArchiveTest.app/AutoArchiveTest
+copying file ./Payload/AutoArchiveTest.app/AppIcon20x20@3x.png ... 
+2019-12-25 03:24:35 +0000  3343 bytes for ./Payload/AutoArchiveTest.app/AppIcon20x20@3x.png
+copying file ./Payload/AutoArchiveTest.app/AppIcon60x60@2x.png ... 
+2019-12-25 03:24:35 +0000  13004 bytes for ./Payload/AutoArchiveTest.app/AppIcon60x60@2x.png
+copying file ./Payload/AutoArchiveTest.app/AppIcon29x29@2x.png ... 
+2019-12-25 03:24:35 +0000  3227 bytes for ./Payload/AutoArchiveTest.app/AppIcon29x29@2x.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/AppIcon40x40@3x.png ... 
+2019-12-25 03:24:35 +0000  13004 bytes for ./Payload/AutoArchiveTest.app/AppIcon40x40@3x.png
+copying file ./Payload/AutoArchiveTest.app/AppIcon29x29~ipad.png ... 
+2019-12-25 03:24:35 +0000  1101 bytes for ./Payload/AutoArchiveTest.app/AppIcon29x29~ipad.png
+copying file ./Payload/AutoArchiveTest.app/AppIcon40x40@2x.png ... 
+2019-12-25 03:24:35 +0000  4451 bytes for ./Payload/AutoArchiveTest.app/AppIcon40x40@2x.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/AppIcon29x29@3x.png ... 
+2019-12-25 03:24:35 +0000  9351 bytes for ./Payload/AutoArchiveTest.app/AppIcon29x29@3x.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/AppIcon60x60@3x.png ... 
+2019-12-25 03:24:35 +0000  13847 bytes for ./Payload/AutoArchiveTest.app/AppIcon60x60@3x.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib ... 
+2019-12-25 03:24:35 +0000  916 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+916 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib ... 
+2019-12-25 03:24:35 +0000  3027 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2019-12-25 03:24:35 +0000  3623 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-12-25 03:24:35 +0000  258 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/Main.storyboardc/Info.plist
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2019-12-25 03:24:35 +0000  1197 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2019-12-25 03:24:35 +0000  2051 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2019-12-25 03:24:35 +0000  896 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+896 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-12-25 03:24:35 +0000  258 bytes for ./Payload/AutoArchiveTest.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/AutoArchiveTest.app/Assets.car ... 
+2019-12-25 03:24:35 +0000  164888 bytes for ./Payload/AutoArchiveTest.app/Assets.car
+copying file ./Payload/AutoArchiveTest.app/AppIcon40x40@2x~ipad.png ... 
+2019-12-25 03:24:35 +0000  2857 bytes for ./Payload/AutoArchiveTest.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/AutoArchiveTest.app/AppIcon76x76@2x~ipad.png ... 
+2019-12-25 03:24:35 +0000  5072 bytes for ./Payload/AutoArchiveTest.app/AppIcon76x76@2x~ipad.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2019-12-25 03:24:35 +0000  5848 bytes for ./Payload/AutoArchiveTest.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/AutoArchiveTest.app/AppIcon29x29@2x~ipad.png ... 
+2019-12-25 03:24:35 +0000  2391 bytes for ./Payload/AutoArchiveTest.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/AutoArchiveTest.app/AppIcon40x40~ipad.png ... 
+2019-12-25 03:24:35 +0000  1304 bytes for ./Payload/AutoArchiveTest.app/AppIcon40x40~ipad.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/_CodeSignature/CodeResources ... 
+2019-12-25 03:24:35 +0000  4478 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/_CodeSignature/CodeResources
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK ... 
+2019-12-25 03:24:35 +0000  667072 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXiniOS_SDK
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser03@2x.png ... 
+2520 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser03@2x.png
+copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser01@2x.png ... 
+2649 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser01@2x.png
+copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser05@2x.png ... 
+2019-12-25 03:24:35 +0000  2640 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser05@2x.png
+copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser07@2x.png ... 
+2019-12-25 03:24:35 +0000  2594 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser07@2x.png
+copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser02@2x.png ... 
+2019-12-25 03:24:35 +0000  2573 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser02@2x.png
+copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser08@2x.png ... 
+2019-12-25 03:24:35 +0000  2578 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser08@2x.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser04@2x.png ... 
+2019-12-25 03:24:35 +0000  2553 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser04@2x.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser06@2x.png ... 
+2019-12-25 03:24:35 +0000  2616 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/CaiXinUerLoding.bundle/cxuser06@2x.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/Info.plist ... 
+2019-12-25 03:24:35 +0000  748 bytes for ./Payload/AutoArchiveTest.app/Frameworks/CaiXiniOS_SDK.framework/Info.plist
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2019-12-25 03:24:35 +0000  1798 bytes for ./Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2019-12-25 03:24:35 +0000  362208 bytes for ./Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/MBProgressHUD
+copying file ./Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/Info.plist ... 
+2019-12-25 03:24:35 +0000  748 bytes for ./Payload/AutoArchiveTest.app/Frameworks/MBProgressHUD.framework/Info.plist
+copying file ./Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2019-12-25 03:24:35 +0000  1798 bytes for ./Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework/AFNetworking ... 
+2019-12-25 03:24:35 +0000  1014912 bytes for ./Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework/AFNetworking
+copying file ./Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework/Info.plist ... 
+2019-12-25 03:24:35 +0000  746 bytes for ./Payload/AutoArchiveTest.app/Frameworks/AFNetworking.framework/Info.plist
+copying file ./Payload/AutoArchiveTest.app/AppIcon20x20~ipad.png ... 
+2019-12-25 03:24:35 +0000  597 bytes for ./Payload/AutoArchiveTest.app/AppIcon20x20~ipad.png
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/embedded.mobileprovision ... 
+2019-12-25 03:24:35 +0000  12927 bytes for ./Payload/AutoArchiveTest.app/embedded.mobileprovision
+copying file ./Payload/AutoArchiveTest.app/AppIcon20x20@2x~ipad.png ... 
+2019-12-25 03:24:35 +0000  1304 bytes for ./Payload/AutoArchiveTest.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/AutoArchiveTest.app/Info.plist ... 
+2019-12-25 03:24:35 +0000  1368 bytes for ./Payload/AutoArchiveTest.app/Info.plist
+2019-12-25 03:24:35 +0000  copying file ./Payload/AutoArchiveTest.app/PkgInfo ... 
+2019-12-25 03:24:35 +0000  8 bytes for ./Payload/AutoArchiveTest.app/PkgInfo
+copying file ./Payload/AutoArchiveTest.app/AppIcon76x76~ipad.png ... 
+2019-12-25 03:24:35 +0000  2575 bytes for ./Payload/AutoArchiveTest.app/AppIcon76x76~ipad.png
+2019-12-25 03:24:35 +0000 [MT] /usr/bin/ditto exited with 0
+2019-12-25 03:24:35 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2019-12-25 03:24:35 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-12-25 03:24:35 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2019-12-25 03:24:35 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

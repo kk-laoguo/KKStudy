@@ -1,0 +1,6 @@
+framework module Pods_AutoArchiveTest_AutoArchiveTestUITests {
+  umbrella header "Pods-AutoArchiveTest-AutoArchiveTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

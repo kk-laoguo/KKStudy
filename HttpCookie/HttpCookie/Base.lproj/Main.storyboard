@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YVt-j3-hac">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HttpCookie-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="d6q-Eu-HXT">
+                                <rect key="frame" x="124" y="383" width="166" height="130"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z66-5a-7mp">
+                                        <rect key="frame" x="0.0" y="0.0" width="166" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="YjP-jC-nFf"/>
+                                        </constraints>
+                                        <state key="normal" title="UIWebView设置Cookie"/>
+                                        <connections>
+                                            <segue destination="We4-wc-oc9" kind="show" id="0K8-8V-kqP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGK-hN-rx7">
+                                        <rect key="frame" x="0.0" y="85" width="166" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="jag-cj-Hcr"/>
+                                        </constraints>
+                                        <state key="normal" title="WKWebView设置Cookie"/>
+                                        <connections>
+                                            <segue destination="ovd-yJ-WFe" kind="show" id="BEZ-OS-rbu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="d6q-Eu-HXT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ae6-J2-hbV"/>
+                            <constraint firstItem="d6q-Eu-HXT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HqT-np-gGH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HttpCookie" id="uUH-SU-DPC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="138.61607142857142"/>
+        </scene>
+        <!--webview-->
+        <scene sceneID="aXH-WY-RJb">
+            <objects>
+                <viewController id="We4-wc-oc9" customClass="WebViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Zg-3A-qUF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4R7-q5-YxF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="webview" id="nAT-gS-riW">
+                        <rightBarButtonItems>
+                            <barButtonItem title="设置Cookie" id="Bfr-Mz-GsZ">
+                                <connections>
+                                    <action selector="setCookies:" destination="We4-wc-oc9" id="847-Ze-nOw"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Cookies" id="TbG-jh-hwb">
+                                <connections>
+                                    <action selector="getCookies:" destination="We4-wc-oc9" id="rrA-kW-YRN"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8TZ-M4-fsv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1841" y="-51"/>
+        </scene>
+        <!--WK-->
+        <scene sceneID="lQ7-RK-BTw">
+            <objects>
+                <viewController id="ovd-yJ-WFe" customClass="WKWebViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="01a-1c-OoN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="aq4-DA-764"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="WK" id="6z8-0V-mgm">
+                        <rightBarButtonItems>
+                            <barButtonItem title="设置Cookie" id="mFc-PG-23k">
+                                <connections>
+                                    <action selector="setCookies:" destination="ovd-yJ-WFe" id="x9T-Cr-1El"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Cookies" id="Bck-Bh-2AJ">
+                                <connections>
+                                    <action selector="getCookies:" destination="ovd-yJ-WFe" id="CEB-hf-b3N"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ic8-xj-mh4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1823" y="635"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hyf-jp-74f">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YVt-j3-hac" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n2s-i3-WqT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gVg-Te-Ky6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TWw-O7-vrP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>

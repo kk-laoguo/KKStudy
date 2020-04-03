@@ -1,0 +1,6 @@
+framework module CQDebugTool {
+  umbrella header "CQDebugTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

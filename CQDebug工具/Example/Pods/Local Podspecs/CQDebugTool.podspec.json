@@ -1,0 +1,29 @@
+{
+  "name": "CQDebugTool",
+  "version": "1.0.0",
+  "summary": "help dev to use..",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luchunqing/CQDebugTool.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luchunqing": "357406094@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/luchunqing/CQDebugTool.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "public_header_files": "CQDebugTool/{CWGJDebug.h,CWGJUrlContext.h}",
+  "source_files": "CQDebugTool/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "BlocksKit": [
+      "~> 2.2.5"
+    ]
+  }
+}

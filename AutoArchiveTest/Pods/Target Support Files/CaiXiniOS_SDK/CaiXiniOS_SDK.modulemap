@@ -1,0 +1,6 @@
+framework module CaiXiniOS_SDK {
+  umbrella header "CaiXiniOS_SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

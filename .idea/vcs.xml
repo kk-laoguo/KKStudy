@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/直播架构/完成代码/001---直播架构搭建" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/直播架构/完成代码/002---直播架构搭建-轻量级的VC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/直播架构/完成代码/003---直播架构搭建-构建直播间" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/直播架构/完成代码/003---直播架构搭建-礼物" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/直播架构/完成代码/004---直播架构搭建-直播间+礼物" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,84 @@
+{
+  "name": "CaiXiniOS_SDK",
+  "version": "1.0.1",
+  "summary": "菜信iOS项目SDK",
+  "description": "菜信iOS常用工具类, 包含常用catagory、自定义导航视图、网络请求...",
+  "homepage": "https://e.coding.net/caixin/CaiXiniOS_SDK.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zainguo": "572249347@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://e.coding.net/caixin/CaiXiniOS_SDK.git",
+    "tag": "1.0.1"
+  },
+  "source_files": "CaiXiniOS_SDK/CaiXinSDKMacro.h",
+  "public_header_files": "CaiXiniOS_SDK/CaiXinSDKMacro.h",
+  "resources": "CaiXiniOS_SDK/CaiXinUerLoding.bundle",
+  "subspecs": [
+    {
+      "name": "CXExtenions",
+      "source_files": "CaiXiniOS_SDK/CXExtenions/**/*",
+      "dependencies": {
+        "MBProgressHUD": [
+
+        ],
+        "CaiXiniOS_SDK/CXNetworkManager": [
+
+        ]
+      },
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "CXHeader",
+      "source_files": "CaiXiniOS_SDK/CXHeader/*.{h}"
+    },
+    {
+      "name": "CXNavigationBar",
+      "source_files": "CaiXiniOS_SDK/CXNavigationBar/*.{h,m}",
+      "dependencies": {
+        "CaiXiniOS_SDK/CXExtenions": [
+
+        ],
+        "CaiXiniOS_SDK/CXHeader": [
+
+        ]
+      }
+    },
+    {
+      "name": "CXNetworkManager",
+      "source_files": "CaiXiniOS_SDK/CXNetworkManager/*.{h,m}",
+      "dependencies": {
+        "AFNetworking": [
+
+        ]
+      }
+    },
+    {
+      "name": "CXProtocol",
+      "source_files": "CaiXiniOS_SDK/CXProtocol/*.{h}"
+    },
+    {
+      "name": "CXTableViewDataSource",
+      "source_files": "CaiXiniOS_SDK/CXTableViewDataSource/*.{h,m}",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "CaiXiniOS_SDK/CXExtenions": [
+
+        ]
+      }
+    },
+    {
+      "name": "CXStarsView",
+      "source_files": "CaiXiniOS_SDK/CXStarsView/*.{h,m}",
+      "frameworks": "UIKit"
+    }
+  ]
+}

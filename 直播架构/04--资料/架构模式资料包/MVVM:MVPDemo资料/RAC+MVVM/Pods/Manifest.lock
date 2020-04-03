@@ -1,0 +1,20 @@
+PODS:
+  - ReactiveObjC (3.1.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - ReactiveObjC
+  - SVProgressHUD (~> 2.2.5)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ReactiveObjC
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: c84e47cc698f9c34f9abffe0f891d6760146f443
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,37 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CQDebugTool (1.0.0):
+    - BlocksKit (~> 2.2.5)
+
+DEPENDENCIES:
+  - CQDebugTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BlocksKit
+
+EXTERNAL SOURCES:
+  CQDebugTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CQDebugTool: 773fc29e3f0036acace63fcff9beee01cde3102b
+
+PODFILE CHECKSUM: 170093b27ff52e870cb1e9a72ccc5f59ed069e83
+
+COCOAPODS: 1.5.3
