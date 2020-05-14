@@ -16,7 +16,7 @@
     
     [self.baseController presentViewController:[[NextViewController alloc] init] animated:YES completion:^{
        
-        NSLog(@"进入直播间");
+        NSLog(@"gotoLiveStream");
     }];
     
 }

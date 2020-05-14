@@ -37,6 +37,24 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)yx_swizzleOriginalInstanceMethod:(SEL)originalSEL withTargetInstanceMethod:(SEL)swizzledSEL;
 
+/**
+ * 类方法交换
+
+ @param cls Class
+ @param originSelector originSelector
+ @param swizzleSelector swizzleSelector
+ */
+void swizzleClassMethod(Class cls, SEL originSelector, SEL swizzleSelector);
+
+/**
+ * 实例方法交换
+
+ @param cls Class
+ @param originSelector originSelector
+ @param swizzleSelector swizzleSelector
+ */
+void swizzleInstanceMethod(Class cls, SEL originSelector, SEL swizzleSelector);
+
 
 
 @end

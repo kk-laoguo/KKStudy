@@ -32,6 +32,9 @@ int main(int argc, const char * argv[]) {
         [Person eat];
         
         [Person instanceFunc];
+        
+        
+        Student *s = [[Student alloc] init];
      
         
     }
