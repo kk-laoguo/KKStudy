@@ -34,7 +34,12 @@ int main(int argc, const char * argv[]) {
         };
         block1();
         NSLog(@"------%@", [block1 class]);
+        
+        NSLog(@"=====%d", [[NSObject class] isKindOfClass:[NSObject class]]);
+        NSLog(@"=====%d", [[NSObject class] isMemberOfClass:[NSObject class]]);
 
+        NSLog(@"=====%d", [[Person class] isKindOfClass:[Person class]]);
+        NSLog(@"=====%d", [[Person class] isMemberOfClass:[Person class]]);
     }
     return 0;
 }

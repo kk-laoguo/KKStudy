@@ -1,0 +1,6 @@
+framework module XibTestSDK {
+  umbrella header "XibTestSDK.h"
+
+  export *
+  module * { export * }
+}

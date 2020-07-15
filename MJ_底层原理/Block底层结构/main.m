@@ -7,26 +7,29 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Dog.h"
 
 int c = 99;
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        void(^block)(void) = ^{
-            NSLog(@"this is block2");
-        };
-        block();
+        Dog *dog = [Dog new];
         
-        static int age = 10;
-        void(^numBlock)(int, int) = ^(int a, int b) {
-            NSLog(@"this is a block - %d -%d -%d -%d", a, b, age, c);
-    
-        };
-        age = 88;
-        c = 199;
-        
-        numBlock(10, 20);
+//        void(^block)(void) = ^{
+//            NSLog(@"this is block2");
+//        };
+//        block();
+//        
+//        static int age = 10;
+//        void(^numBlock)(int, int) = ^(int a, int b) {
+//            NSLog(@"this is a block - %d -%d -%d -%d", a, b, age, c);
+//    
+//        };
+//        age = 88;
+//        c = 199;
+//        
+//        numBlock(10, 20);
     
 
 
