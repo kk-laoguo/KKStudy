@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744F410222C50C2800FE55C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F410122C50C2800FE55C8 /* main.m */; };
+		744F410D22C50C3600FE55C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F410C22C50C3600FE55C8 /* main.m */; };
+		744F411822C511A000FE55C8 /* CFStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F411622C5109200FE55C8 /* CFStudent.m */; };
+		744F411922C511A000FE55C8 /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F411322C5107F00FE55C8 /* CFPerson.m */; };
+		744F412122C520B300FE55C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F412022C520B300FE55C8 /* main.m */; };
+		744F412722C520D600FE55C8 /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F412622C520D600FE55C8 /* CFPerson.m */; };
+		74BBE24622CB9AD600363CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBE24522CB9AD600363CDC /* main.m */; };
+		74BBE24C22CB9AFB00363CDC /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBE24B22CB9AFB00363CDC /* CFPerson.m */; };
+		74BBE25422CBA25300363CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBE25322CBA25300363CDC /* main.m */; };
+		74BBE25A22CBA2B900363CDC /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBE25922CBA2B900363CDC /* CFPerson.m */; };
+		74BBE25D22CBA2C900363CDC /* CFStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBE25C22CBA2C900363CDC /* CFStudent.m */; };
+		74BBE26522CBA3B500363CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBE26422CBA3B500363CDC /* main.m */; };
+		74BBE26B22CBA3D100363CDC /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBE26A22CBA3D100363CDC /* CFPerson.m */; };
+		74BBE26E22CBA3DA00363CDC /* CFStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BBE26D22CBA3DA00363CDC /* CFStudent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		744F40FD22C50C2800FE55C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		744F410822C50C3600FE55C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		744F411C22C520B300FE55C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		74BBE24122CB9AD600363CDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		74BBE24F22CBA25300363CDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		74BBE26022CBA3B500363CDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		744F40FF22C50C2800FE55C8 /* 类方法和实例方法之间的区别 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类方法和实例方法之间的区别"; sourceTree = BUILT_PRODUCTS_DIR; };
+		744F410122C50C2800FE55C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		744F410A22C50C3600FE55C8 /* objc_msgSend介绍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objc_msgSend介绍"; sourceTree = BUILT_PRODUCTS_DIR; };
+		744F410C22C50C3600FE55C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		744F411122C50C5800FE55C8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		744F411222C5107F00FE55C8 /* CFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CFPerson.h; path = "objc_msgSend介绍/CFPerson.h"; sourceTree = SOURCE_ROOT; };
+		744F411322C5107F00FE55C8 /* CFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CFPerson.m; path = "objc_msgSend介绍/CFPerson.m"; sourceTree = SOURCE_ROOT; };
+		744F411522C5109200FE55C8 /* CFStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFStudent.h; sourceTree = "<group>"; };
+		744F411622C5109200FE55C8 /* CFStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFStudent.m; sourceTree = "<group>"; };
+		744F411E22C520B300FE55C8 /* 直接跳过消息发送流程 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "直接跳过消息发送流程"; sourceTree = BUILT_PRODUCTS_DIR; };
+		744F412022C520B300FE55C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		744F412522C520D600FE55C8 /* CFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
+		744F412622C520D600FE55C8 /* CFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		74BBE24322CB9AD600363CDC /* 动态消息解析 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "动态消息解析"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BBE24522CB9AD600363CDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74BBE24A22CB9AFB00363CDC /* CFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
+		74BBE24B22CB9AFB00363CDC /* CFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		74BBE25122CBA25300363CDC /* 重定向 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "重定向"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BBE25322CBA25300363CDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74BBE25822CBA2B900363CDC /* CFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
+		74BBE25922CBA2B900363CDC /* CFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		74BBE25B22CBA2C900363CDC /* CFStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFStudent.h; sourceTree = "<group>"; };
+		74BBE25C22CBA2C900363CDC /* CFStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFStudent.m; sourceTree = "<group>"; };
+		74BBE26222CBA3B500363CDC /* 转发 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "转发"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BBE26422CBA3B500363CDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74BBE26922CBA3D100363CDC /* CFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
+		74BBE26A22CBA3D100363CDC /* CFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		74BBE26C22CBA3DA00363CDC /* CFStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFStudent.h; sourceTree = "<group>"; };
+		74BBE26D22CBA3DA00363CDC /* CFStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFStudent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		744F40FC22C50C2800FE55C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F410722C50C3600FE55C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F411B22C520B300FE55C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BBE24022CB9AD600363CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BBE24E22CBA25300363CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BBE25F22CBA3B500363CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		744F40E822C50BEC00FE55C8 = {
+			isa = PBXGroup;
+			children = (
+				744F411122C50C5800FE55C8 /* PrefixHeader.pch */,
+				744F410022C50C2800FE55C8 /* 类方法和实例方法之间的区别 */,
+				744F410B22C50C3600FE55C8 /* objc_msgSend介绍 */,
+				744F411F22C520B300FE55C8 /* 直接跳过消息发送流程 */,
+				74BBE24422CB9AD600363CDC /* 动态消息解析 */,
+				74BBE25222CBA25300363CDC /* 重定向 */,
+				74BBE26322CBA3B500363CDC /* 转发 */,
+				744F40F222C50BEC00FE55C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		744F40F222C50BEC00FE55C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				744F40FF22C50C2800FE55C8 /* 类方法和实例方法之间的区别 */,
+				744F410A22C50C3600FE55C8 /* objc_msgSend介绍 */,
+				744F411E22C520B300FE55C8 /* 直接跳过消息发送流程 */,
+				74BBE24322CB9AD600363CDC /* 动态消息解析 */,
+				74BBE25122CBA25300363CDC /* 重定向 */,
+				74BBE26222CBA3B500363CDC /* 转发 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		744F410022C50C2800FE55C8 /* 类方法和实例方法之间的区别 */ = {
+			isa = PBXGroup;
+			children = (
+				744F410122C50C2800FE55C8 /* main.m */,
+			);
+			path = "类方法和实例方法之间的区别";
+			sourceTree = "<group>";
+		};
+		744F410B22C50C3600FE55C8 /* objc_msgSend介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				744F410C22C50C3600FE55C8 /* main.m */,
+				744F411222C5107F00FE55C8 /* CFPerson.h */,
+				744F411322C5107F00FE55C8 /* CFPerson.m */,
+				744F411522C5109200FE55C8 /* CFStudent.h */,
+				744F411622C5109200FE55C8 /* CFStudent.m */,
+			);
+			path = "objc_msgSend介绍";
+			sourceTree = "<group>";
+		};
+		744F411F22C520B300FE55C8 /* 直接跳过消息发送流程 */ = {
+			isa = PBXGroup;
+			children = (
+				744F412022C520B300FE55C8 /* main.m */,
+				744F412522C520D600FE55C8 /* CFPerson.h */,
+				744F412622C520D600FE55C8 /* CFPerson.m */,
+			);
+			path = "直接跳过消息发送流程";
+			sourceTree = "<group>";
+		};
+		74BBE24422CB9AD600363CDC /* 动态消息解析 */ = {
+			isa = PBXGroup;
+			children = (
+				74BBE24522CB9AD600363CDC /* main.m */,
+				74BBE24A22CB9AFB00363CDC /* CFPerson.h */,
+				74BBE24B22CB9AFB00363CDC /* CFPerson.m */,
+			);
+			path = "动态消息解析";
+			sourceTree = "<group>";
+		};
+		74BBE25222CBA25300363CDC /* 重定向 */ = {
+			isa = PBXGroup;
+			children = (
+				74BBE25322CBA25300363CDC /* main.m */,
+				74BBE25822CBA2B900363CDC /* CFPerson.h */,
+				74BBE25922CBA2B900363CDC /* CFPerson.m */,
+				74BBE25B22CBA2C900363CDC /* CFStudent.h */,
+				74BBE25C22CBA2C900363CDC /* CFStudent.m */,
+			);
+			path = "重定向";
+			sourceTree = "<group>";
+		};
+		74BBE26322CBA3B500363CDC /* 转发 */ = {
+			isa = PBXGroup;
+			children = (
+				74BBE26422CBA3B500363CDC /* main.m */,
+				74BBE26922CBA3D100363CDC /* CFPerson.h */,
+				74BBE26A22CBA3D100363CDC /* CFPerson.m */,
+				74BBE26C22CBA3DA00363CDC /* CFStudent.h */,
+				74BBE26D22CBA3DA00363CDC /* CFStudent.m */,
+			);
+			path = "转发";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		744F40FE22C50C2800FE55C8 /* 类方法和实例方法之间的区别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744F410322C50C2800FE55C8 /* Build configuration list for PBXNativeTarget "类方法和实例方法之间的区别" */;
+			buildPhases = (
+				744F40FB22C50C2800FE55C8 /* Sources */,
+				744F40FC22C50C2800FE55C8 /* Frameworks */,
+				744F40FD22C50C2800FE55C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类方法和实例方法之间的区别";
+			productName = "类方法和实例方法之间的区别";
+			productReference = 744F40FF22C50C2800FE55C8 /* 类方法和实例方法之间的区别 */;
+			productType = "com.apple.product-type.tool";
+		};
+		744F410922C50C3600FE55C8 /* objc_msgSend介绍 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744F410E22C50C3600FE55C8 /* Build configuration list for PBXNativeTarget "objc_msgSend介绍" */;
+			buildPhases = (
+				744F410622C50C3600FE55C8 /* Sources */,
+				744F410722C50C3600FE55C8 /* Frameworks */,
+				744F410822C50C3600FE55C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "objc_msgSend介绍";
+			productName = "objc_msgSend介绍";
+			productReference = 744F410A22C50C3600FE55C8 /* objc_msgSend介绍 */;
+			productType = "com.apple.product-type.tool";
+		};
+		744F411D22C520B300FE55C8 /* 直接跳过消息发送流程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744F412222C520B300FE55C8 /* Build configuration list for PBXNativeTarget "直接跳过消息发送流程" */;
+			buildPhases = (
+				744F411A22C520B300FE55C8 /* Sources */,
+				744F411B22C520B300FE55C8 /* Frameworks */,
+				744F411C22C520B300FE55C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "直接跳过消息发送流程";
+			productName = "直接跳过消息发送流程";
+			productReference = 744F411E22C520B300FE55C8 /* 直接跳过消息发送流程 */;
+			productType = "com.apple.product-type.tool";
+		};
+		74BBE24222CB9AD600363CDC /* 动态消息解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BBE24922CB9AD600363CDC /* Build configuration list for PBXNativeTarget "动态消息解析" */;
+			buildPhases = (
+				74BBE23F22CB9AD600363CDC /* Sources */,
+				74BBE24022CB9AD600363CDC /* Frameworks */,
+				74BBE24122CB9AD600363CDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "动态消息解析";
+			productName = "动态消息解析";
+			productReference = 74BBE24322CB9AD600363CDC /* 动态消息解析 */;
+			productType = "com.apple.product-type.tool";
+		};
+		74BBE25022CBA25300363CDC /* 重定向 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BBE25722CBA25300363CDC /* Build configuration list for PBXNativeTarget "重定向" */;
+			buildPhases = (
+				74BBE24D22CBA25300363CDC /* Sources */,
+				74BBE24E22CBA25300363CDC /* Frameworks */,
+				74BBE24F22CBA25300363CDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "重定向";
+			productName = "重定向";
+			productReference = 74BBE25122CBA25300363CDC /* 重定向 */;
+			productType = "com.apple.product-type.tool";
+		};
+		74BBE26122CBA3B500363CDC /* 转发 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BBE26622CBA3B500363CDC /* Build configuration list for PBXNativeTarget "转发" */;
+			buildPhases = (
+				74BBE25E22CBA3B500363CDC /* Sources */,
+				74BBE25F22CBA3B500363CDC /* Frameworks */,
+				74BBE26022CBA3B500363CDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "转发";
+			productName = "转发";
+			productReference = 74BBE26222CBA3B500363CDC /* 转发 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		744F40E922C50BEC00FE55C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zainguo;
+				TargetAttributes = {
+					744F40FE22C50C2800FE55C8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					744F410922C50C3600FE55C8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					744F411D22C520B300FE55C8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					74BBE24222CB9AD600363CDC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					74BBE25022CBA25300363CDC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					74BBE26122CBA3B500363CDC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 744F40EC22C50BEC00FE55C8 /* Build configuration list for PBXProject "Runtime之消息处理" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 744F40E822C50BEC00FE55C8;
+			productRefGroup = 744F40F222C50BEC00FE55C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				744F40FE22C50C2800FE55C8 /* 类方法和实例方法之间的区别 */,
+				744F410922C50C3600FE55C8 /* objc_msgSend介绍 */,
+				744F411D22C520B300FE55C8 /* 直接跳过消息发送流程 */,
+				74BBE24222CB9AD600363CDC /* 动态消息解析 */,
+				74BBE25022CBA25300363CDC /* 重定向 */,
+				74BBE26122CBA3B500363CDC /* 转发 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		744F40FB22C50C2800FE55C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F410222C50C2800FE55C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F410622C50C3600FE55C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F411822C511A000FE55C8 /* CFStudent.m in Sources */,
+				744F411922C511A000FE55C8 /* CFPerson.m in Sources */,
+				744F410D22C50C3600FE55C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744F411A22C520B300FE55C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F412122C520B300FE55C8 /* main.m in Sources */,
+				744F412722C520D600FE55C8 /* CFPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BBE23F22CB9AD600363CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BBE24622CB9AD600363CDC /* main.m in Sources */,
+				74BBE24C22CB9AFB00363CDC /* CFPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BBE24D22CBA25300363CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BBE25D22CBA2C900363CDC /* CFStudent.m in Sources */,
+				74BBE25422CBA25300363CDC /* main.m in Sources */,
+				74BBE25A22CBA2B900363CDC /* CFPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BBE25E22CBA3B500363CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BBE26E22CBA3DA00363CDC /* CFStudent.m in Sources */,
+				74BBE26522CBA3B500363CDC /* main.m in Sources */,
+				74BBE26B22CBA3D100363CDC /* CFPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		744F40F622C50BEC00FE55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		744F40F722C50BEC00FE55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		744F410422C50C2800FE55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		744F410522C50C2800FE55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		744F410F22C50C3600FE55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		744F411022C50C3600FE55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		744F412322C520B300FE55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		744F412422C520B300FE55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74BBE24722CB9AD600363CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74BBE24822CB9AD600363CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74BBE25522CBA25300363CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74BBE25622CBA25300363CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74BBE26722CBA3B500363CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74BBE26822CBA3B500363CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		744F40EC22C50BEC00FE55C8 /* Build configuration list for PBXProject "Runtime之消息处理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744F40F622C50BEC00FE55C8 /* Debug */,
+				744F40F722C50BEC00FE55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744F410322C50C2800FE55C8 /* Build configuration list for PBXNativeTarget "类方法和实例方法之间的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744F410422C50C2800FE55C8 /* Debug */,
+				744F410522C50C2800FE55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744F410E22C50C3600FE55C8 /* Build configuration list for PBXNativeTarget "objc_msgSend介绍" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744F410F22C50C3600FE55C8 /* Debug */,
+				744F411022C50C3600FE55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744F412222C520B300FE55C8 /* Build configuration list for PBXNativeTarget "直接跳过消息发送流程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744F412322C520B300FE55C8 /* Debug */,
+				744F412422C520B300FE55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BBE24922CB9AD600363CDC /* Build configuration list for PBXNativeTarget "动态消息解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BBE24722CB9AD600363CDC /* Debug */,
+				74BBE24822CB9AD600363CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BBE25722CBA25300363CDC /* Build configuration list for PBXNativeTarget "重定向" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BBE25522CBA25300363CDC /* Debug */,
+				74BBE25622CBA25300363CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BBE26622CBA3B500363CDC /* Build configuration list for PBXNativeTarget "转发" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BBE26722CBA3B500363CDC /* Debug */,
+				74BBE26822CBA3B500363CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 744F40E922C50BEC00FE55C8 /* Project object */;
+}
